@@ -19,7 +19,7 @@ const blogs = [
 
 const BlogSec = () => {
   return (
-    <section className="py-12 px-6 md:px-12">
+    <section id='blogs' className="py-12 px-6 md:px-12">
       <h2 className="text-4xl font-extrabold mb-6">/Latest Blogs</h2>
       <div className="grid md:grid-cols-2 gap-8">
         {blogs.map(blog => (
@@ -33,7 +33,6 @@ const BlogSec = () => {
             </a>
           </article>
         ))}
-        <SeeMyworkbtn label='See all blogs' />
       </div>
     </section>
   )

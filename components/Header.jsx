@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const Header = () => {
@@ -12,14 +13,13 @@ const Header = () => {
         </div>
 
         <ul className="nav-content w-[80%]">
-          <li> <a href="/">{"<About />"} </a></li>
-          <li> <a href="/portfolio">{"<Projects />"} </a></li>
-          <li>
-            <a href="/#contact" className="cursor-pointer">{"<Contact />"}</a>
-          </li>
-          <li>{"<Games />"}</li>
-          <li>{"<Blogs />"}</li>
+          <li><Link href="/">{`<About />`}</Link></li>
+          <li><Link href="/portfolio">{`<Projects />`}</Link></li>
+          <li><Link href="/#contact">{`<Contact />`}</Link></li>
+          <li><Link href={"/game"}>{`<Games />`}</Link></li>
+          <li><Link href="/#blogs">{`<Blogs />`}</Link></li>
         </ul>
+
       </nav>
 
 
