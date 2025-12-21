@@ -1,0 +1,99 @@
+[
+  {
+    "id": 6,
+    "title": "BloggedIn",
+    "name": "BloggedIn",
+    "date": "April 2025",
+    "weblink": "https://blogedin.vercel.app/",
+    "desc": "BloggedIn is a modern blogging platform designed for writers and content creators who seek a seamless online publishing experience. Users can effortlessly create, edit, and manage posts with a rich text editor that supports advanced formatting and media integration. </br /> </br /> The platform also includes an intuitive image cropping tool, ensuring visuals are always perfectly displayed alongside written content. Beyond just writing, BloggedIn allows users to customize their profiles and upload banners, giving each account a unique identity. Its responsive design guarantees smooth interaction across devices, making both reading and writing enjoyable whether on desktop or mobile. The interface is crafted with React and Tailwind CSS, while animations are handled through GSAP to deliver a dynamic user experience. </br /> </br /> Additionally, BloggedIn integrates Node.js and Express for backend functionality, paired with MongoDB to securely manage posts, user data, and images. Every feature is optimized for speed and efficiency, resulting in a professional-grade platform that combines aesthetic design with robust functionality. This project demonstrates a full-stack approach to modern web application development.",
+    "img": "/blogDesk.png",
+    "imgMbl": "/blogmbl.jpg",
+    "tags": ["Full Stack", "API", "Database", "Animation"],
+    "technologies": [
+      "/react.png",
+      "/tailwind.png",
+      "/gsap.png",
+      "/node-js.png",
+      "/exp.png",
+      "/mongodb.png"
+    ]
+  },
+  {
+    "id": 1,
+    "title": "E-Commerce Website",
+    "name": "Needle&Knot",
+    "weblink": "https://wqsrzaaaa.github.io/NeedleKnot/",
+    "date": " February 27, 2025",
+    "desc" : "Needle&Knot is a fully functional e-commerce platform built to offer a smooth and engaging shopping experience. With a focus on UI/UX design, it provides users with intuitive navigation, responsive layouts, and interactive product displays that work seamlessly across all devices. Features like product search, filtering, and category sorting make finding desired items effortless. </br /> </br /> The website leverages React for its dynamic front-end capabilities and Tailwind CSS for modern, responsive styling. GSAP animations enhance user interaction by creating fluid transitions, hover effects, and smooth scrolling. Every component is optimized to ensure users enjoy a visually appealing and highly functional shopping environment. The project highlights the creation of a complete front-end shopping experience without relying on a backend, demonstrating a clear understanding of React's component-based architecture. </br /> </br /> Needle&Knot not only reflects attention to design and usability but also serves as a showcase of practical front-end development skills applicable to real-world e-commerce solutions.",
+    "img": "/NeedleKNotDesktop.png",
+    "imgMbl": "/needlembl.jpg",
+    "tags": ["Frontend", "Animation", "UI"],
+    "technologies": [
+      "/react.png",
+      "/tailwind.png",
+      "/gsap.png"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Redefine Gaming",
+    "name": "Redefine Gaming",
+    "date": "March 17, 2025",
+    "weblink": "https://wqsrzaaaa.github.io/redefine/",
+      "desc" : "Redefine Gaming is an immersive platform dedicated to gamers seeking high-quality, interactive experiences. The website is designed with a futuristic aesthetic and smooth navigation, ensuring that every visit feels engaging and cutting-edge. It focuses on delivering visually compelling content that captures the excitement and energy of the gaming world. Built entirely with React and styled using Tailwind CSS, the project emphasizes responsive design, allowing users to explore the platform seamlessly across multiple devices. GSAP animations are employed to create interactive elements and transitions, giving the website a lively, dynamic feel. Each page is crafted to engage visitors while maintaining easy-to-use navigation. This project serves as a creative exploration into gaming UI/UX design, demonstrating an ability to merge functionality with aesthetics. Redefine Gaming highlights the potential of front-end technologies to create entertainment-driven platforms, showcasing skills in React development, responsive layouts, and interactive web design.",
+    "img": "/Redefine.jpeg",
+    "imgMbl": "/redefinembl.jpg",
+    "tags": ["Frontend", "Animation", "UI"],
+    "technologies": [
+      "/react.png",
+      "/tailwind.png",
+      "/gsap.png"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Weather App",
+    "name": "Weather App",
+    "date": "March 8, 2025",
+    "weblink": "https://wqsrzaaaa.github.io/weatherapp/",
+    "desc": "The Weather App is a responsive and easy-to-use application that provides real-time weather updates and forecasts for any location worldwide. Users can quickly access detailed climate information, including temperature, humidity, wind speed, and weather conditions, all presented in a clean, intuitive interface. Its simplicity makes it ideal for anyone looking to check weather information on the go.<br /><br />Using React and Tailwind CSS, the app offers smooth transitions, responsive layouts, and a visually pleasing design. The frontend dynamically updates weather data using external APIs, showcasing the integration of real-time information with modern web development practices.<br /><br />The Weather App demonstrates the capability to combine API integration with interactive front-end development, making it a practical tool while also serving as a showcase of React and responsive design skills. Its clear and structured interface ensures an effortless user experience.",
+    "img": "/weather.png",
+    "imgMbl": "/weathermbl.jpg",
+    "tags": ["Frontend", "API"],
+    "technologies": [
+      "/react.png",
+      "/tailwind.png"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Coffee Club",
+    "name": "Coffee Club",
+    "date": "March 12, 2025",
+    "weblink": "https://wqsrzaaaa.github.io/CoffeeClub/",
+    "img": "/CoffeeClub.png",
+    "imgMbl": "/coffeembl.jpg",
+     "tags": ["Frontend", "Animation", "UI"],
+     "desc": "Coffee Club is a web platform designed for coffee enthusiasts to explore a variety of flavors, learn about brewing methods, and connect with a community of fellow coffee lovers. The site offers visually appealing content that celebrates the culture and enjoyment of coffee, making it engaging and informative.<br /><br />Users can explore different types of coffee, read about brewing techniques, and discover their perfect cup. Built with React, Tailwind CSS, and GSAP for animations, the platform offers smooth navigation, responsive layouts, and interactive effects that enhance the browsing experience.<br /><br />Coffee Club not only showcases front-end development skills but also demonstrates creativity in creating lifestyle-focused web applications. Its seamless integration of interactive design, visual aesthetics, and responsive functionality highlights the developer's ability to craft engaging, user-centered experiences.",
+    "technologies": [
+      "/react.png",
+      "/tailwind.png",
+      "/gsap.png"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Gemini Clone",
+    "name": "Gemini Clone",
+    "date": "March 25, 2025",
+    "weblink": "https://wqsrzaaaa.github.io/GeminiClone/",
+    "desc": "Gemini Clone is a fully functional AI chatbot that simulates real-time conversations, providing an interactive and engaging user experience. Users can interact with the chatbot naturally, receiving intelligent responses that mimic human-like dialogue. The project demonstrates practical knowledge of React for frontend development and API integration for AI interactions.<br /><br />The platform’s responsive design, built with React and Tailwind CSS, ensures smooth usage across all devices, while the interface remains simple and user-friendly. Gemini Clone emphasizes interaction, allowing users to experience the capabilities of AI technology in a web environment without needing complex setups.<br /><br />This project serves as a testament to creating interactive, tech-driven applications that combine modern front-end frameworks with external services. Gemini Clone highlights the potential of AI integration in web applications, reflecting both technical proficiency and innovation in crafting intelligent user experiences.",
+    "img": "/Gemini.png",
+    "imgMbl": "/GeminiMobile.jpg",
+     "tags": ["Frontend", "API"],
+    "technologies": [
+      "/react.png",
+      "/tailwind.png"
+    ]
+  }
+]
