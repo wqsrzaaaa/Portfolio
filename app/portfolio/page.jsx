@@ -8,7 +8,7 @@ import Footer from '@/components/Footer'
 const page = () => {
   return (
     <>
-    <section className="w-full py-25 px-10 " id="portfolio">
+    <section className="w-full py-25 px-5 md:px-10 " id="portfolio">
       <Header />
       <h2 className="text-4xl font-extrabold  mb-12">/My Portfolio</h2>
       <div className="flex flex-wrap justify-center gap-10">

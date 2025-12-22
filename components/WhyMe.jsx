@@ -5,7 +5,7 @@ const WhyMe = () => {
 
   return (
     <section className="w-full py-24 px-5 relative lg:px-10">
-      <h2 className="text-2xl md:text-4xl font-extrabold mb-10 ">
+      <h2 className="text-2xl px-2 md:text-4xl font-extrabold mb-10 ">
         Why Work With Me?
       </h2>
 

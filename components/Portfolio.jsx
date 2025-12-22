@@ -30,7 +30,7 @@ const Portfolio = () => {
       "title": "E-Commerce Website",
       "name": "Needle&Knot",
       "weblink": "https://wqsrzaaaa.github.io/NeedleKnot/",
-      "date": " February 27, 2025",
+      "date": " Feb, 2025",
       "desc": "Needle&Knot is a fully functional e-commerce platform built to offer a smooth and engaging shopping experience. With a focus on UI/UX design, it provides users with intuitive navigation, responsive layouts, and interactive product displays that work seamlessly across all devices. Features like product search, filtering, and category sorting make finding desired items effortless. The website leverages React for its dynamic front-end capabilities and Tailwind CSS for modern, responsive styling. GSAP animations enhance user interaction by creating fluid transitions, hover effects, and smooth scrolling. Every component is optimized to ensure users enjoy a visually appealing and highly functional shopping environment. The project highlights the creation of a complete front-end shopping experience without relying on a backend, demonstrating a clear understanding of React's component-based architecture. Needle&Knot not only reflects attention to design and usability but also serves as a showcase of practical front-end development skills applicable to real-world e-commerce solutions.",
       "img": "/NeedleKNotDesktop.png",
       "imgMbl": "/needlembl.jpg",
@@ -45,7 +45,7 @@ const Portfolio = () => {
 
 
   return (
-    <section className="w-full py-20 px-10 " id="portfolio">
+    <section className="w-full min-w-42  py-20 md:px-10 px-5 " id="portfolio">
       <h2 className="text-4xl font-extrabold  mb-12">/My Portfolio</h2>
       <div className="flex flex-wrap justify-center gap-10 mb-12">
         {work.map((project) => (
@@ -61,7 +61,7 @@ const Portfolio = () => {
           >
             <div className="flex flex-col">
               <div className='flex items-center  gap-2'>
-                <span style={{ color: "#234567" }} className="text-sm font-semibold ">
+                <span style={{ color: "#234567" }} className="text-sm w-32 font-semibold ">
                   {project.date} &nbsp;
                 </span>
 
@@ -81,7 +81,7 @@ const Portfolio = () => {
 
               </p>
 
-              <div className="flex items-center gap-4 mb-8">
+              <div className="flex items-center flex-wrap gap-4 mb-8">
                 {project.technologies.map((tech, i) => (
                   <img
                     key={i}

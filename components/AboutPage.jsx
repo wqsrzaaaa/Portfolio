@@ -21,7 +21,7 @@ const AboutPage = () => {
               Whether you need a full featured web application, a responsive website, e commerce, or a custom solution tailored to your business needs, I can help turn your ideas into real, working products. My focus is to deliver results that make an impact and drive success for my clients.
             </p>
           </div>
-          <div className='md:w-[35%] w-full min-w-85 md:-mt-65 h-full flex flex-col gap-3 items-center justify-center relative'>
+          <div className='md:w-[35%] w-full min-w-85 md:-mt-65 pb-5 h-full flex flex-col gap-3 items-center justify-center relative'>
             <Image src={"/me33.png"} alt='Waqas Raza (wqsrz)' width={500} height={500} className='relative z-10 me' />
           </div>
 

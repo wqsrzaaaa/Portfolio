@@ -19,11 +19,11 @@ const blogs = [
 
 const BlogSec = () => {
   return (
-    <section id='blogs' className="py-12 px-6 md:px-12">
+    <section id='blogs' className="py-12 px-5 md:px-10">
       <h2 className="text-4xl font-extrabold mb-6">/Latest Blogs</h2>
       <div className="grid md:grid-cols-2 gap-8">
         {blogs.map(blog => (
-          <article key={blog.id} className="w-full rounded-3xl p-8 items-center bg-white/15 backdrop-blur-xl border border-white/30 shadow-[0_8px_32px_rgba(31,38,135,0.25)]">
+          <article key={blog.id} className="w-full rounded-3xl p-4 items-center bg-white/15 backdrop-blur-xl border border-white/30 shadow-[0_8px_32px_rgba(31,38,135,0.25)]">
             <h3 className="text-xl font-semibold mb-2">{blog.title}</h3>
             <p className=" mb-2">
               {blog.description.length > 135 ? blog.description.slice(0, 135) + "..." : blog.description}

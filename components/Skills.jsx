@@ -56,7 +56,7 @@ const TechSlider = () => {
                 alt={`${skill.split(".")[0]} logo - Waqas Raza wqsrz web developer`}
                 width={80}
                 height={80}
-                className="img"
+                className="img w-12  md:w-20 h-12  md:h-20 "
               />
             </div>
           ))}

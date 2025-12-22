@@ -17,11 +17,10 @@ const GamePage = () => {
     <section className="max-w-6xl select-none mx-auto px-6 pt-35 py-20">
       <Header />
 
-      {/* Title & Date */}
       <h1 className="text-6xl font-extrabold mb-4">{project.title}</h1>
       <p style={{ color: "#234567" }} className="mb-6">{project.date}</p>
 
-      <div className="w-full h-screen border rounded-2xl border-blue-300  ">
+      <div className="hidden md:block w-full h-screen border rounded-2xl border-blue-300">
         <iframe
           src={project.weblink}
           title="2048 Game"
@@ -30,6 +29,22 @@ const GamePage = () => {
           allowFullScreen
         />
       </div>
+
+      <div className="md:hidden w-full h-[60vh] flex flex-col items-center justify-center border rounded-2xl border-blue-300 text-center px-6">
+        <h2 className="text-2xl font-bold mb-3">Not available on small screens</h2>
+        <p className="text-gray-600 mb-4">
+          Please visit this page on a desktop or larger screen to play the game.
+        </p>
+
+        <a
+          href={project.weblink}
+          target="_blank"
+          className="underline font-semibold"
+        >
+          Visit site directly →
+        </a>
+      </div>
+
 
       <div className="w-full flex py-10 flex-wrap items-center gap-10 md:justify-between justify-center">
         <p

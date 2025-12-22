@@ -63,7 +63,7 @@ export default function ContactSection() {
     >
       <div className="w-full max-w-7xl flex flex-col lg:flex-row gap-12">
         {/* Left Side */}
-        <div className="w-full lg:w-1/3 flex flex-col justify-center gap-6 px-5 lg:px-0">
+        <div className="w-full lg:w-1/3 flex flex-col justify-center gap-6  lg:px-0">
           <h2 className="text-3xl lg:text-4xl font-bold mb-4">
             Let's Build Something Together
           </h2>
