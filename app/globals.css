@@ -330,11 +330,6 @@ body {
   flex: 0 0 auto;
 }
 
-.skillsimg {
-  width: 100px;
-  height: 100px;
-}
-
 @keyframes scroll {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); } /* scroll half since we duplicated logos */

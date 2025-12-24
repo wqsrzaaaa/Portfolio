@@ -29,7 +29,8 @@ export default function TechCloud() {
       <div className="slide-track">
         {[...skills , ...skills].map((imgs , i )=> (
           <div key={i} className="slide">
-            <Image src={`/${imgs}`} alt="" width={100} height={100} className="skillsimg" />
+            <Image src={`/${imgs}`} alt={`Waqas Raza wqsrz web developer ${i}`}
+             width={100} height={100} className="skillsimg md:w-25 md:h-25 w-15 h-15 object-contain" />
           </div>
         ))}
       </div>
