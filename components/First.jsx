@@ -33,7 +33,7 @@ const FirstPage = () => {
 
           <SeeMyworkbtn label="See my work" />
           <a
-            href="/Waqascv.pdf"
+            href="/WaqasResume.pdf"
             download="Waqas_Resume.pdf"
             style={{color : "#234567" }}
             className="w-fit font-semibold mt-4 ml-3 cursor-pointer border-b-2 border-dashed border-b-blue-500"
