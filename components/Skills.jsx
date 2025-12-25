@@ -25,6 +25,8 @@ const skills = [
 
 export default function TechCloud() {
   return (
+     <div >
+        <h2 className="md:text-6xl md:px-10 px-5 font-extrabold text-4xl">/Technologies i use</h2>
     <div className="slider">
       <div className="slide-track">
         {[...skills , ...skills].map((imgs , i )=> (
@@ -35,6 +37,7 @@ export default function TechCloud() {
         ))}
       </div>
     </div>
+     </div>
 
   );
 }

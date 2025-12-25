@@ -4,22 +4,37 @@ import React from 'react'
 import Head from 'next/head'
 import SeeMyworkbtn from './SeeMyworkbtn'
 
+
+export const metadata = {
+  title: "Waqas Raza (wqsrz) | Full Stack Developer & Web Designer",
+  description:
+    "Waqas Raza (wqsrz) is a full stack developer and web designer based in Sydney, Australia. Specializing in React, Next.js, and scalable web applications.",
+  keywords: [
+    "Waqas Raza",
+    "wqsrz",
+    "ecommerce website development ",
+    "ecommerce website development company",
+    "ecommerce website development services",
+    "Full Stack Developer",
+    "Web Designer",
+  ],
+  alternates: {
+    canonical: "https://wqsrz.netlify.app/",
+  },
+  openGraph: {
+    title: "Waqas Raza | Full Stack Developer",
+    description:
+      "Full stack developer based in Sydney building scalable and interactive web applications.",
+    url: "https://wqsrz.netlify.app/",
+    siteName: "Waqas Raza Portfolio",
+    type: "website",
+  },
+};
+
+
 const FirstPage = () => {
   return (
     <>
-      <Head>
-        <title>Waqas Raza (wqsrz) | Full Stack Developer & Web Designer</title>
-        <meta
-          name="description"
-          content="Waqas Raza (wqsrz) is a skilled full stack developer and web designer based in Sydney, Australia. I help businesses and individuals bring their ideas to life by building robust, interactive, and scalable web applications. From designing responsive user interfaces to creating efficient backend systems, I turn concepts into real, working solutions that drive results."
-        />
-        <meta
-          name="keywords"
-          content="Waqas Raza, wqsrz, full stack developer, web designer, React developer, Next.js developer, backend developer, portfolio, web applications Sydney"
-        />
-      </Head>
-
-
       <div className='w-full sm:pt-0 flex items-center md:items-end py-10 sm:min-h-screen h-fit pt-40  px-10'>
         <div className='md:w-[80%] select-none w-full min-h-120 gap-0 flex flex-col justify-center'>
           <h3 className='text-4xl'>Hello, I'm</h3>

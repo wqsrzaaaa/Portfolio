@@ -1,0 +1,112 @@
+:root {
+  --col-sky-top: #a8f5f1;
+  --col-sky-bottom: #e8f2f6;
+  --col-fg: #5d7399;
+  --col-blood: #5d7399;
+  --col-ground: #f6f9fa;
+}
+
+html, body {
+  height: 100%;
+  min-height: 450px;
+  font-family: 'Dosis', sans-serif;
+  color: var(--col-fg);
+}
+
+.content {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(to bottom, var(--col-sky-top) 0%, var(--col-sky-bottom) 80%);
+  overflow: hidden;
+}
+
+.snow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 20;
+}
+
+.mainText {
+  padding: 20vh 20px 0 20px;
+  text-align: center;
+  line-height: 2em;
+  font-size: 5vh;
+}
+
+.homeLink {
+  font-size: 0.6em;
+  font-weight: 400;
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.6;
+  border-bottom: 1px dashed transparent;
+}
+
+.homeLink:hover {
+  opacity: 1;
+}
+
+.ground {
+  height: 160px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: var(--col-ground);
+  box-shadow: 0 0 10px 10px var(--col-ground);
+}
+
+/* Mound & Spade */
+.mound {
+  margin-top: -150px;
+  font-weight: 800;
+  font-size: 180px;
+  text-align: center;
+  color: var(--col-blood);
+  pointer-events: none;
+  position: relative;
+}
+
+.moundText {
+  transform: rotate(6deg);
+}
+
+.moundSpade {
+  display: block;
+  width: 35px;
+  height: 30px;
+  position: absolute;
+  right: 50%;
+  top: 42%;
+  margin-right: -250px;
+  z-index: 0;
+  transform: rotate(35deg);
+  background: var(--col-blood);
+}
+
+.moundSpade::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 30px;
+  bottom: 98%;
+  left: 50%;
+  margin-left: -20%;
+  background: var(--col-blood);
+}
+
+.moundSpade::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  top: -55px;
+  left: 0%;
+  border: 10px solid var(--col-blood);
+  border-radius: 4px 4px 20px 20px;
+}

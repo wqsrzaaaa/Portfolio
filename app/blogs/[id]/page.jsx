@@ -1,9 +1,10 @@
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import SeeMyworkbtn from "@/components/SeeMyworkbtn";
-import work from "@/work.json";
-import Image from "next/image";
 
+
+import React from 'react'
+import work from "@/blog"
+import Footer from '@/components/Footer';
+import Header from '@/components/Header';
+import Image from 'next/image';
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
@@ -20,15 +21,13 @@ export async function generateMetadata({ params }) {
 
   return {
     title: `${project.title} | Waqas Raza - Software Developer`,
-    description: `Waqas Raza (wqsrz), a web developer. Explore the ${project.title} project showcasing modern web development, UI/UX, and performance-focused design.`,
+    description: `Explore the ${project.title} project showcasing modern web development, UI/UX, and performance focused design.`,
     keywords: [
-    "Waqas Raza",
-    "wqsrz",
-    "ecommerce website development ",
-    "ecommerce website development company",
-    "ecommerce website development services",
-    "Full Stack Developer",
-    "Web Designer",
+      "Waqas Raza",
+      "wqsrz",
+      "ecommerce website development",
+      "Software developer tips",
+      "software developer",
       project.title
     ],
     openGraph: {
@@ -40,8 +39,7 @@ export async function generateMetadata({ params }) {
 }
 
 
-
-export default async function ProjectPage({ params }) {
+export default async function page({ params }) {
   const resolvedParams = await params;
   const projectId = resolvedParams.id;
 
@@ -66,20 +64,10 @@ export default async function ProjectPage({ params }) {
           className="rounded-xl   mb-10"
         />
 
-        <div className="w-full flex py-10 flex-wrap items-center gap-10 md:justify-between justify-center ">
-          <p
-            className="text-lg leading-8 w-full lg:w-[60%] mb-10"
+          <div
+            className=" leading-8 w-full  mb-10"
             dangerouslySetInnerHTML={{ __html: project.desc }}
           />
-          <div className="w-80 h-140 rounded-2xl bg-amber-700 overflow-hidden">
-            <Image src={project.imgMbl}
-              width={350}
-              height={350}
-              className="object-cover w-full h-full "
-              alt={`Waqas Raza wqsrza web developer ${project.title}`} />
-          </div>
-        </div>
-
 
         <div className="flex gap-3 flex-wrap mb-8">
           {project.tags.map((tag, i) => (
@@ -93,37 +81,14 @@ export default async function ProjectPage({ params }) {
           ))}
         </div>
 
-        {/* Technologies */}
-        <div className="flex gap-4 flex-wrap">
-          {project.technologies.map((tech, i) => (
-            <Image
-              key={i}
-              src={tech}
-              alt={`Waqas Raza wqsrza web dev ${project.title}`}
-              className="object-contain"
-              width={45}
-              height={40}
-            />
-          ))}
-        </div>
-
         <a
-          href={project.weblink}
-          target="_blank"
-          className="inline-block mt-12  text-lg"
-        >
-          <SeeMyworkbtn label="Visit Website" />
-        </a>
-
-        <a
-          href={`/portfolio`}
+          href={`/blogs`}
           className="  mt-2 underline flex items-center text-lg"
         >
-          ← Back to projects
+          ← Back to blogs
         </a>
       </section>
       <Footer />
     </>
   );
 };
-
