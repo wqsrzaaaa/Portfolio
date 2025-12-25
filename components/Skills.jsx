@@ -1,8 +1,4 @@
 "use client";
-
-import { useRef, useMemo } from "react";
-import { motion } from "framer-motion";
-import { SkillBubble } from "./SkillBubble";
 import Image from "next/image";
 
 const skills = [

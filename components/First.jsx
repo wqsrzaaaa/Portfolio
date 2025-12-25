@@ -1,30 +1,29 @@
 "use client"
 
 import React from 'react'
-import Head from 'next/head'
 import SeeMyworkbtn from './SeeMyworkbtn'
 
 
 export const metadata = {
-  title: "Waqas Raza (wqsrz) | Full Stack Developer & Web Designer",
+  title: "Waqas Raza (wqsrz) | Software Developer & Web Designer",
   description:
-    "Waqas Raza (wqsrz) is a full stack developer and web designer based in Sydney, Australia. Specializing in React, Next.js, and scalable web applications.",
+    "Waqas Raza (wqsrz) is a Software Developer and web designer based in Sydney, Australia. Specializing in React, Next.js, and scalable web applications.",
   keywords: [
     "Waqas Raza",
     "wqsrz",
     "ecommerce website development ",
     "ecommerce website development company",
     "ecommerce website development services",
-    "Full Stack Developer",
+    "Software Developer",
     "Web Designer",
   ],
   alternates: {
     canonical: "https://wqsrz.netlify.app/",
   },
   openGraph: {
-    title: "Waqas Raza | Full Stack Developer",
+    title: "Waqas Raza | Software Developer",
     description:
-      "Full stack developer based in Sydney building scalable and interactive web applications.",
+      "Software Developer based in Sydney building scalable and interactive web applications.",
     url: "https://wqsrz.netlify.app/",
     siteName: "Waqas Raza Portfolio",
     type: "website",
@@ -41,7 +40,7 @@ const FirstPage = () => {
           <h2 className='waqas text-4xl md:text-[65px] font-extrabold'>Waqas Raza.</h2> 
           <h1 className='md:text-4xl text-2xl'>“I Transform Ideas into Interactive Solutions”</h1>
           <p className='mt-10'>
-            Self taught Full Stack developer Waqas Raza has over 1.5 years of experience creating interactive, user friendly designs and web applications.
+            Self taught Full Stack Software Developer Waqas Raza has over 1.5 years of experience creating interactive, user friendly designs and web applications.
             I specialize in SEO friendly development, mobile responsive layouts, and applying color psychology to make businesses stand out.
             I love building innovative solutions and collaborating with teams, and turn ideas into engaging digital experiences.
           </p>

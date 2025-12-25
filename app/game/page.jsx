@@ -1,9 +1,7 @@
 "use client";
 
 import Header from "@/components/Header";
-import Image from "next/image";
 import React from "react";
-import SeeMyworkbtn from "@/components/SeeMyworkbtn"; // assuming you have this button component
 
 const project = {
   title: "2048 Game",
