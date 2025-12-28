@@ -5,7 +5,7 @@ const AboutPage = () => {
   return (
     <>
       <section className="w-full min-h-screen flex flex-col  justify-center px-5 sm:text-start text-center md:px-10 py-20">
-        <h2 className="text-5xl font-extrabold mb-16 ">
+        <h2 className="text-5xl font-extrabold w-full px-5 text-start mb-16 ">
           /About Me
         </h2>
         <div className='w-full flex flex-wrap-reverse justify-between '>

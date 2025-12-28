@@ -2,6 +2,7 @@
 
 import React from 'react'
 import SeeMyworkbtn from './SeeMyworkbtn'
+import { useRouter } from 'next/navigation';
 
 
 export const metadata = {
@@ -32,9 +33,11 @@ export const metadata = {
 
 
 const FirstPage = () => {
+
+  const router = useRouter()
   return (
     <>
-      <div className='w-full sm:pt-0 flex items-center md:items-end py-10 sm:min-h-screen h-fit pt-40  px-10'>
+      <div className='w-full sm:pt-0 flex items-center md:items-end py-10 sm:min-h-screen h-fit pt-40 px-5 md:px-10'>
         <div className='md:w-[80%] select-none w-full min-h-120 gap-0 flex flex-col justify-center'>
           <h3 className='text-4xl'>Hello, I'm</h3>
           <h2 className='waqas text-4xl md:text-[65px] font-extrabold'>Waqas Raza.</h2> 
@@ -45,7 +48,8 @@ const FirstPage = () => {
             I love building innovative solutions and collaborating with teams, and turn ideas into engaging digital experiences.
           </p>
 
-          <SeeMyworkbtn label="See my work" />
+          <a href="/portfolio">
+          <SeeMyworkbtn label="See my work" /></a>
           <a
             href="/WaqasResume.pdf"
             download="Waqas_Resume.pdf"
