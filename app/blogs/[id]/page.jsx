@@ -12,6 +12,7 @@ export async function generateMetadata({ params }) {
 
   const project = work.find(p => p.id.toString() === projectId);
 
+
   if (!project) {
     return {
       title: `Not found | Waqas Raza`,
